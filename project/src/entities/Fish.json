@@ -1,0 +1,52 @@
+{
+  "name": "Fish",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the fish catch"
+    },
+    "species": {
+      "type": "string",
+      "description": "Species or type of fish caught"
+    },
+    "weight": {
+      "type": "number",
+      "description": "Weight of the fish in pounds"
+    },
+    "length": {
+      "type": "number",
+      "description": "Length of the fish in inches"
+    },
+    "location": {
+      "type": "string",
+      "description": "Location where the fish was caught"
+    },
+    "bait": {
+      "type": "string",
+      "description": "Type of bait or lure used"
+    },
+    "weather": {
+      "type": "string",
+      "description": "Weather conditions during the catch"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes about the catch"
+    },
+    "datecaught": {
+      "type": "string",
+      "description": "Date when the fish was caught"
+    },
+    "timeOfDay": {
+      "type": "string",
+      "description": "Time of day when fish was caught (morning, afternoon, evening, night)"
+    }
+  },
+  "required": [
+    "species",
+    "weight",
+    "location",
+    "dateRange"
+  ]
+}
